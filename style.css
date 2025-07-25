@@ -1,15 +1,23 @@
 /* Base styles */
 
+
+
 html, body{
+  font-family: "Source Sans 3", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
 	padding: 0px;
 	margin: 0px;
 }
+
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
+
 
 img {
   display: block;
@@ -99,3 +107,21 @@ img {
   background: linear-gradient(0deg, rgba(0, 0, 0, 0.5) 0%, rgba(255, 255, 255, 0) 100%);
   transition: 0.3s;
 }
+p{
+  padding: 20px;
+  padding-top:0px;
+  text-align: center;
+
+}
+h1{
+  padding: 20px;
+      text-align: center;
+  }
+.text{
+  padding: 20px;
+  columns: 2;
+  
+  
+
+}
+
